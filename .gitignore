@@ -1,0 +1,38 @@
+# ESP-IDF build output
+build/
+build_*/
+managed_components/
+dependencies.lock
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# sdkconfig backups/variants (keep the main sdkconfig if you rely on it as config source)
+sdkconfig.old
+sdkconfig.bak
+
+# Binaries / flashing artifacts
+*.bin
+*.elf
+*.map
+*.hex
+
+# VS Code (ESP-IDF extension generated files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/c_cpp_properties.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python cache (ESP-IDF tools)
+__pycache__/
+*.pyc
